@@ -1,0 +1,107 @@
+body{
+background-color: black;  
+}
+.span {
+  color: red;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.cards{
+  height:400px;
+  width:350px;
+  margin:10px;
+  border-radius: 7px;
+  background-color: coral;
+  border-radius:12px;
+  border:2px solid black;
+}
+.img{
+  object-fit: fill;
+border:3px solid white;
+border-radius:12px;
+  width: 100%;
+  height:680px;
+  margin-bottom:40px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin-top:50PX;
+  margin-bottom:50px ;
+}
+.img-card{
+height:300px;
+width:300px;
+margin:10px 20px;
+object-fit:cover;
+border:3px solid white;
+border-radius:12px;
+}
+.btn{
+height:50px;
+background-color: cadetblue;
+border:2px solid white;
+}
+
+
+.pos-sticky {
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+.bi {
+  margin-right: 5px;
+}
+.blue-link {
+  color: rgb(55, 255, 0);
+  font-weight: bold;
+  font-size:30px;
+  font-family: serif;
+}
+.blue-link:hover {
+  color: rgb(55, 255, 0);
+}
+.index {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+}
+.index:hover {
+  color: white;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 150px;
+}
+.foot-links {
+  text-decoration: none;
+  font-size: 30px;
+  color: #b2adad;
+}
+.foot-links:hover {
+  text-decoration: underline;
+  font-size: 30px;
+  color: whitesmoke;
+}
+footer {
+  background-color: rgb(20, 17, 17);
+  box-shadow: -5px -3px 5px #b1d1ee, 5px 3px 5px #b1d1ee;
+}
+.social-icons {
+  padding: 5px 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.dp-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+
